@@ -1,0 +1,79 @@
+body {
+  background-image: url(img/background.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  padding-top: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+}
+
+.contenitore {
+  margin: auto;
+  width: 60%;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  padding: 50px 100px 50px 100px;
+}
+
+header {
+  text-align: center;
+}
+
+header .logo {
+  width: 150px;
+}
+
+header h1 {
+  color: #00dd00;
+  font-size: 30px;
+  margin: 0;
+}
+
+nav {
+  background-color: #00dd00;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+section {
+  color: white;
+  line-height: 10px;
+}
+
+main section h4 {
+  display: inline-block;
+  margin: 30px 0px 0px 0px;
+  font-size: 16px;
+}
+
+main section p {
+  margin: 5px;
+}
+
+.caricamedia {
+  background-color: #f5b453;
+  width: 250px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.caricaalta {
+  background-color: #1ec31e;
+  width: 450px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.caricabassa {
+  background-color: #be4141;
+  width: 100px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+}
